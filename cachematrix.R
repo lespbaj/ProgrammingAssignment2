@@ -1,8 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
 
-## Write a short comment describing this function
-
+## This first function store the special inverted matrix,
+## The information about the matrix and the inverted matrix will be storage in the final list
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) {
@@ -19,7 +17,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function will be responsible of inverting the matrix if the matrix
+## does not already exist
 
 cacheSolve <- function(x, ...) {
   m <- x$getinv()
